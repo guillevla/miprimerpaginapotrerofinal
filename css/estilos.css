@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: red; text-decoration-line: underline ;
+}
+h2{
+    background-color: sandybrown;
+}
+/*comentario css*/
+section{
+    background-color: pink; color:tomato;
+}
+h1{
+    background-color: yellow;
+}
+footer{background-color:orangered;
+}
+ul{
+    list-style: none;
+}
