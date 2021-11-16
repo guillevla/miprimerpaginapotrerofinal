@@ -62,22 +62,41 @@ color: white;
     gap: 20px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;      
+    min-height: 100vh;   
+    font-size: 18px;   
+}
+
+.mapa{
+    width: 100%;
+    color: black;
+}
+
+
+.carousel-item {
+    height: 200px; 
+     width: 200px;  
+}
+
+.carousel-item img {
+    height: 100%;
+    width:  100%; 
+    object-fit: cover;  
 }
 
 .color{
     color: white;
-}
-
-.contacto{
+    text-decoration: none;
     display: flex;
-    flex-direction: column;
-    align-content: center;    
-    color:white;
+    flex-direction: column;      
 }
 
 .main{
-    min-height: 100vh;
+    min-height: 100vh;    
+}
+
+.main-contacto{
+    min-height: 100vh; 
+    padding: 130px;  
 }
 
 .redes{
@@ -90,7 +109,7 @@ color: white;
     padding: 30px;
     text-align: justify;
     background-color: #aaf2dc;
-} */
+}*/
 
 .flexbox{  
     padding:50px;

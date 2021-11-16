@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FibropTica SA - Empresa</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilos.css"/> 
 </head>
 <body>
@@ -19,35 +20,96 @@
                     <a class= item href="contacto.html">Contacto</a>              
                 </div>                    
         </nav> 
-        <img class="header__logo" src="imagenes/logoempresa.jpg"/>
-    
+        <img class="header__logo" src="imagenes/logoempresa.jpg"/>    
     </header>
+   
+    <main class="main-contacto"> 
+        <section>
+          <div class="container">      
 
-    
-    <main>
+            <h2>  Formulario de Contacto </h2>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Direccion de Mail</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                          
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Tipo de consulta</label>
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione una opción</option>
+                            <option value="1">Presupuesto de obra</option>
+                            <option value="2">Presupuesto de mantenimiento o reparación </option>
+                            <option value="3">Visita técnica</option>
+                            <option value="4">Asesoramiento</option>
+                            <option value="5">Pago a proveedores</option>
+                            <option value="6">Reclamo</option>
+                          </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Su Consulta</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>             
+
+                        <div>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Como conoció nuestra empresa</option>
+                                <option value="1">Google</option>
+                                <option value="2">Página Web</option>
+                                <option value="3">Instagram</option>
+                                <option value="4">Facebook</option>
+                              </select>    
+                        </div>
+
+                        <!--<div class="mb-3 form-check">
+                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>-->
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                           
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="h2">Ubicación</h2>
+         
+                    <p>Nuestra oficina se encuentra ubicada en:
+                    Los Notros 155 - Villa la Angostura - Neuquen</p>
+                    <p>Horario de Atención: Lunes a Viernes de 08:00 a 17:00 hs. Sábados de 09:00 a 13:00 hs</p>
+
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.073820295636!2d-71.64588238517676!3d-40.76040107932665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610bf23e5209555%3A0xb1df2b14c4b40bc4!2sLos%20Notros%20155%2C%20Q8407%20Villa%20La%20Angostura%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1636837605301!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>  
+            </div>                
+          </div>    
+         </section>
+    </main>
+
         <footer class="footer">
 
-            <h2 class="h2">Ubicacion</h2>
+            <!--<h2 class="h2">Ubicación</h2>
          
              <p>Nuestra oficina se encuentra ubicada en:
-             Los Notros 155 - Villa la Angostura - Neuquen</p>
-             <div>
-                <a href="mailto:fibropticasa@gmail.com"> fibropticasa@gmail.com </a>
-                <a href="tel:+5492944240518"> 2944 240518</a> 
-                <a href="https://wa.me/+5492944240518"> 294 4240518</a>              
-            </div>
-             
-             <p>Derechos Reservados Guillermo Peveri 2021</p>
+             Los Notros 155 - Villa la Angostura - Neuquen</p> -->
+    
             
-          
+            <div class="color">
+                <a class="color" href="mailto:fibropticasa@gmail.com"> Mail: fibropticasa@gmail.com </a>
+                <a class="color" href="tel:+5492944240518"> Cel: 2944 240518 </a>
+                <a class="color" href="https://wa.me/+5492944240518"> WhatsApp 294 4240518 </a>              
+            </div>
+                         
              <div>  
                  <ul>
                      <li class="redes"><a class="redes" href="https://instagram.com/fibroptica?utm_medium=copy-link/" target="_blanck">Instagram</a></li>
                      <li class="redes"><a class="redes" href="https://es-la.facebook.com/pg/FibropTica/posts/" target="_blanck">Facebook</a></li>
                  </ul>    
-             </div>    
-         </footer>     
-    </main>
+             </div>
+             <p>Derechos Reservados Guillermo Peveri 2021</p>
+    
+         </footer>
+         <link rel="stylesheet" href="js/bootstrap.bundle.js">     
+    
          
     
 
