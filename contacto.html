@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <h1 class="h1"> FibropTica SA </h1>
-        <!--<img class="header__logo" src="imagenes/logoempresa.jpg"/>-->         
+        
         <nav class="nav">                   
                 <div> 
                     <a class= item href="index.html">Inicio</a>                               
@@ -24,10 +24,9 @@
     </header>
    
     <main> 
-        <section>
+        <section class="fondo" >
           <div class="container">      
-
-            <h2>  Formulario de Contacto </h2>
+            <h2 class="h2formulario">Formulario de Contacto </h2>
             <div class="row">
                 <div class="col-12 col-md-6">
                     <form>
@@ -61,55 +60,43 @@
                                 <option value="3">Instagram</option>
                                 <option value="4">Facebook</option>
                               </select>    
-                        </div>
-
-                        <!--<div class="mb-3 form-check">
-                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>-->
+                        </div>                       
                         <button type="submit" class="btn btn-primary">Enviar</button>
                       </form>
-                           
                 </div>
                 <div class="col-12 col-md-6">
-                    <h2 class="h2">Ubicación</h2>
-         
-                    <p>Nuestra oficina se encuentra ubicada en:
-                    Los Notros 155 - Villa la Angostura - Neuquen</p>
-                    <p>Horario de Atención: Lunes a Viernes de 08:00 a 17:00 hs. Sábados de 09:00 a 13:00 hs</p>
-
-                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.073820295636!2d-71.64588238517676!3d-40.76040107932665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610bf23e5209555%3A0xb1df2b14c4b40bc4!2sLos%20Notros%20155%2C%20Q8407%20Villa%20La%20Angostura%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1636837605301!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOZzIDs8jnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
                 </div>  
             </div>                
           </div>    
          </section>
     </main>
-
-        <footer class="footer">
-
-            <!--<h2 class="h2">Ubicación</h2>
-         
-             <p>Nuestra oficina se encuentra ubicada en:
-             Los Notros 155 - Villa la Angostura - Neuquen</p> -->
-    
-            
-            <div class="color">
-                <a class="color" href="mailto:fibropticasa@gmail.com"> Mail: fibropticasa@gmail.com </a>
-                <a class="color" href="tel:+5492944240518"> Cel: 2944 240518 </a>
-                <a class="color" href="https://wa.me/+5492944240518"> WhatsApp 294 4240518 </a>              
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6; col-md-6">
+                    <h2 class="h2">Ubicación</h2>
+                    <p>Nuestra oficina se encuentra ubicada en:
+                    Los Notros 155 - Villa la Angostura - Neuquen</p>
+                    <div class="color">
+                        <a class="color" href="mailto:fibropticasa@gmail.com"> Mail: fibropticasa@gmail.com </a>
+                        <a class="color" href="tel:+5492944240518"> Cel: 2944 240518 </a>
+                        <a class="color" href="https://wa.me/+5492944240518"> WhatsApp 294 4240518 </a>              
+                    </div>
+                     <div>  
+                         <ul>
+                             <li class="redes"><a class="redes" href="https://instagram.com/fibroptica?utm_medium=copy-link/" target="_blanck">Instagram</a></li>
+                             <li class="redes"><a class="redes" href="https://es-la.facebook.com/pg/FibropTica/posts/" target="_blanck">Facebook</a></li>
+                         </ul>    
+                     </div>
+                     <p>Derechos Reservados Guillermo Peveri 2021</p>
+                </div>
+                <div class="col-6; col-md-6">
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.073820295636!2d-71.64588238517676!3d-40.76040107932665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610bf23e5209555%3A0xb1df2b14c4b40bc4!2sLos%20Notros%20155%2C%20Q8407%20Villa%20La%20Angostura%2C%20Neuqu%C3%A9n!5e0!3m2!1ses!2sar!4v1636837605301!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
-                         
-             <div>  
-                 <ul>
-                     <li class="redes"><a class="redes" href="https://instagram.com/fibroptica?utm_medium=copy-link/" target="_blanck">Instagram</a></li>
-                     <li class="redes"><a class="redes" href="https://es-la.facebook.com/pg/FibropTica/posts/" target="_blanck">Facebook</a></li>
-                 </ul>    
-             </div>
-             <p>Derechos Reservados Guillermo Peveri 2021</p>
-    
-         </footer>
-
-         
+        </div>   
+     </footer>
          <script src="js/bootstrap.bundle.js"></script>   
 
     </body>
