@@ -103,6 +103,9 @@
     margin: 25px;
 }
 
+.container{
+    padding-bottom: 30px ;
+}
 .mapa{
     width: 100%;
     color: black;
