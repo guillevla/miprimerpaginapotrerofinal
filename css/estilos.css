@@ -301,4 +301,7 @@
         flex-direction: column;
         min-height: auto;   
     }
+    .rectangulo { border: 1px blue; dotted margin: 10px 5px; }
+
+
 
